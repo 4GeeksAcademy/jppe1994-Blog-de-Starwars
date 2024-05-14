@@ -14,10 +14,11 @@ export const PeopleView = props => {
 	},[])
 	const params = useParams();
 	return (
-		<div className="jumbotron">
+		<div className="jumbotron mx-5">
 			<h1 className="display-4">Vista people: {params.people_id}</h1>
 
 			<hr className="my-4" />
+			<img src="" id="imagenes"></img>
 			<p> eye_color:{peopleViews.eye_color} </p>
 			
 			<p> url:{peopleViews.url} </p>

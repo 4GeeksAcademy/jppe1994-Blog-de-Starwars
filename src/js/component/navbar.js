@@ -8,7 +8,7 @@ export const Navbar = () => {
 	console.log(store.favoritos)
 	
 	return (
-		<nav className="navbar sticky-top navbar-light bg-light mb-3">
+		<nav className="navbar sticky-top navbar-light bg-light col-lg-11 col-sm-12 mb-3 mx-5">
 			<Link to="/">
 				<span className="navbar-brand mb-0 h1">
 					<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
@@ -24,7 +24,7 @@ export const Navbar = () => {
 			</Link>
 			
 			</div>
-			<div className="mx-end col-">
+			<div className="mx-end col-lg-1 col-sm-12 mx-1">
 				<h2>Favoritos</h2>
 			
 				

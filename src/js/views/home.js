@@ -22,23 +22,13 @@ export const Home = () => {
 	return (
 	
 			 <div className="container row mx-auto">
-			{/* <div className="col">
-				<Nave title='nave 1' />
-			</div>
-			<div className="col">
-				<Nave title='nave 2' />
-			</div>
-			<div className="col">
-				<Nave title='nave 3' />
-			</div>
-			<div className="col">
-				<Nave  title='nave 4'/>
-			</div>
+				
+			{/*
 
 			Linea 35 ,mapea la constante nave y lo guarda en item para asignarle un id que será uid
 			y luego escribira el nombre de las naves en un parrafo
 			{nave.map((item)=><p key={item.uid}>{item.name}</p>)} */}
-				<h1>Naves desde API</h1>
+				<h1>Naves</h1>
 				<div className="row flex-row flex-nowrap overflow-auto">
 					
 				

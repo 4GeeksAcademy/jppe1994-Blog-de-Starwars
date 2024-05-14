@@ -14,10 +14,11 @@ export const NaveView = props => {
 	},[])
 	const params = useParams();
 	return (
-		<div className="jumbotron">
+		<div className="jumbotron mx-5">
 			<h1 className="display-4">Vista nave: {params.nave_id}</h1>
 
 			<hr className="my-4" />
+			<img src="" id="imagenes"></img>
 			<p> Model:{naveViews.model} </p>
 			<p> manufacturer:{naveViews.manufacturer} </p>
 			<p> name:{naveViews.name} </p>
